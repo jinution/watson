@@ -2,12 +2,12 @@
 applications:
 - instances: 1
   timeout: 180
-  name: jinwoo
+  name: jinwoo962
   buildpack: nodejs_buildpack
   command: npm start
   disk_quota: 1G
   memory: 48MB
   domain: mybluemix.net
-  host: jinwoo
+  host: jinwoo962
   env:
     OPTIMIZE_MEMORY: true
